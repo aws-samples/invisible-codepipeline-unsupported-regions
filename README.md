@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project
+# Invisible Pipeline in regions where CoePipeline is not supported yet !
 
 AWS CodePipeline is a continuous delivery orchestration product of DevOps suite of Amazon Web Services which integrates vast variety of sources ( like Git, Storage solutions etc ), continuous integration products and services from AWS, partners and open source products alike into an end-to-end workflow service for fast application and infrastructure deployments.
 
@@ -82,7 +82,7 @@ Run below commands to initialize and build the solution
 
 Clone the AWS CodeCommit repository called app-dev-repo to setup the CICD for the application as below 
 
-git clone https://git-codecommit.us-west-2.amazonaws.com/v1/repos/app-dev-repo
+git clone https://git-codecommit.XXXXXXXX.amazonaws.com/v1/repos/app-dev-repo
 
 NOTE: Repository name and region will be different based on the values provided in cdk.json
 
